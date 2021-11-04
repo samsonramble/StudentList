@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/student")
+@RequestMapping("/api")
 public class StudentApi {
     private List<Student> studentList;
     public StudentApi(){
